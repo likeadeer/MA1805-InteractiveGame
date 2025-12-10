@@ -6,7 +6,7 @@ I worked on an interactive magical world game driven by player personality and c
 <br>
 <br>
 Repository
-
+https://github.com/likeadeer/MA1805-InteractiveGame
 <br>
 Live Version
 https://likeadeer.github.io/MA1805-InteractiveGame/
@@ -132,3 +132,4 @@ Furthermore, this README describes what the project does, where it came from, wh
 <br>
 
 Thank you for looking at my project. And like James Halliday said, thank you for playing my (much more basic compared to Ready Player One) game!
+
