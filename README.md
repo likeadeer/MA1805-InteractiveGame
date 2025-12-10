@@ -131,5 +131,6 @@ Furthermore, this README describes what the project does, where it came from, wh
 <br>
 <br>
 
-Thank you for looking at my project. And like James Halliday said, thank you for playing my (much more basic compared to Ready Player One) game!
+Thank you for looking at my project. And like James Halliday said, thank you for playing my (much more basic compared to The Oasis) game!
+
 
