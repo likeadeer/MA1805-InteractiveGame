@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Personality World Game</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+<div class="container">
+<!--keeps things centred and styled-->
+
+<h1 class="title">YOUR OWN MAGICAL WORLD</h1>
+
+<div id="start-screen">
+<p>Enter your Myers-Briggs personality type (e.g., INTJ, ENFP):</p>
+<input id="personalityInput" type="text" maxlength="4" placeholder="..."/>
+<!--where the players puts in their personality type-->
+
+<p id="mbtiPrompt">
+If you don't know your personality type, don't be lazy and
+<a href="https://www.16personalities.com/free-personality-test" target="_blank">
+click here
+</a>
+</p>
+<!--links to test-->
+
+<button id="startBtn">Let's go!</button>
+</div>
+
+<div id="game-screen" class="hidden">
+<!--game area that's hidden until the player starts-->
+
+<div id="cat-area">
+<img id="catImage" src="assets/cat.png" alt="Cat God">
+</div>
+
+<div id="dialogue-box">
+<p id="catText">...</p>
+</div>
+
+<div id="choices-area">
+<button class="choiceBtn" id="choiceA"></button>
+<button class="choiceBtn" id="choiceB"></button>
+</div>
+</div>
+<!--makes two buttons for the players choices-->
+
+<div id="end-screen" class="hidden">
+<!--final results shows only when game is done-->
+
+<h2>Are you happy with your world?</h2>
+<p id="finalSummary"></p>
+<!--the final world is shown-->
+
+<p id="peaceScore"></p>
+<!--shows the peace score-->
+
+<button onclick="window.location.reload()">Play Again</button>
+<!--reload button to restart the game-->
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+<!--links js to control game logic-->
+
+</body>
+</html>
